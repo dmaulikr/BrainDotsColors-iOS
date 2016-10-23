@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C50A04851D16C5C500767AF8 /* punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = C50A04841D16C5C500767AF8 /* punch.wav */; };
+		C50A04911D1703A000767AF8 /* splash1234.png in Resources */ = {isa = PBXBuildFile; fileRef = C50A04901D1703A000767AF8 /* splash1234.png */; };
+		C522B3001D15217C00274B89 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C522B2FF1D15217B00274B89 /* AVFoundation.framework */; };
+		C522B3041D15220000274B89 /* scored.wav in Resources */ = {isa = PBXBuildFile; fileRef = C522B3031D15220000274B89 /* scored.wav */; };
+		C522B3061D15250B00274B89 /* GameStartingEndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C522B3051D15250B00274B89 /* GameStartingEndScene.swift */; };
+		C534FD741D12B33E00808B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534FD731D12B33E00808B63 /* AppDelegate.swift */; };
+		C534FD781D12B33F00808B63 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534FD771D12B33F00808B63 /* GameScene.swift */; };
+		C534FD7A1D12B33F00808B63 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534FD791D12B33F00808B63 /* GameViewController.swift */; };
+		C534FD7D1D12B33F00808B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C534FD7B1D12B33F00808B63 /* Main.storyboard */; };
+		C534FD821D12B33F00808B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C534FD801D12B33F00808B63 /* LaunchScreen.storyboard */; };
+		C54BDAE61D17CC4B00DAB11D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54BDAE51D17CC4B00DAB11D /* Images.xcassets */; };
+		C56028441D15976500C7967C /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56028431D15976500C7967C /* GameKit.framework */; };
+		C56028481D15AA2B00C7967C /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56028471D15AA2B00C7967C /* GoogleMobileAds.framework */; };
+		C56028521D167F4F00C7967C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56028501D167F4F00C7967C /* Assets.xcassets */; };
+		C58C07821D4A06AF001F4E52 /* splash_v1.png in Resources */ = {isa = PBXBuildFile; fileRef = C58C07811D4A06AF001F4E52 /* splash_v1.png */; };
+		C5D8008F1D4A1A1E006A428C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D8008E1D4A1A1E006A428C /* Default-568h@2x.png */; };
+		C5D800911D4A1A99006A428C /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D800901D4A1A99006A428C /* Default-568h.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C50A04841D16C5C500767AF8 /* punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = punch.wav; sourceTree = "<group>"; };
+		C50A048E1D16F21100767AF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C50A04901D1703A000767AF8 /* splash1234.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash1234.png; sourceTree = "<group>"; };
+		C522B2FF1D15217B00274B89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C522B3031D15220000274B89 /* scored.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = scored.wav; sourceTree = "<group>"; };
+		C522B3051D15250B00274B89 /* GameStartingEndScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameStartingEndScene.swift; path = ../GameStartingEndScene.swift; sourceTree = "<group>"; };
+		C534FD701D12B33D00808B63 /* Brain Dots - Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brain Dots - Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C534FD731D12B33E00808B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C534FD771D12B33F00808B63 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C534FD791D12B33F00808B63 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C534FD7C1D12B33F00808B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C534FD811D12B33F00808B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C534FD831D12B33F00808B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54BDAE51D17CC4B00DAB11D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Brain Dots - Colors/Images.xcassets"; sourceTree = "<group>"; };
+		C56028431D15976500C7967C /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C56028471D15AA2B00C7967C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		C56028501D167F4F00C7967C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C58C07811D4A06AF001F4E52 /* splash_v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_v1.png; sourceTree = "<group>"; };
+		C5D8008E1D4A1A1E006A428C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C5D800901D4A1A99006A428C /* Default-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C534FD6D1D12B33D00808B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56028481D15AA2B00C7967C /* GoogleMobileAds.framework in Frameworks */,
+				C522B3001D15217C00274B89 /* AVFoundation.framework in Frameworks */,
+				C56028441D15976500C7967C /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C534FD671D12B33D00808B63 = {
+			isa = PBXGroup;
+			children = (
+				C5D800901D4A1A99006A428C /* Default-568h.png */,
+				C5D8008E1D4A1A1E006A428C /* Default-568h@2x.png */,
+				C54BDAE51D17CC4B00DAB11D /* Images.xcassets */,
+				C50A048E1D16F21100767AF8 /* UIKit.framework */,
+				C56028431D15976500C7967C /* GameKit.framework */,
+				C56028471D15AA2B00C7967C /* GoogleMobileAds.framework */,
+				C522B2FF1D15217B00274B89 /* AVFoundation.framework */,
+				C534FD721D12B33E00808B63 /* Roll from top */,
+				C534FD711D12B33D00808B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C534FD711D12B33D00808B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C534FD701D12B33D00808B63 /* Brain Dots - Colors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C534FD721D12B33E00808B63 /* Roll from top */ = {
+			isa = PBXGroup;
+			children = (
+				C522B3051D15250B00274B89 /* GameStartingEndScene.swift */,
+				C534FD731D12B33E00808B63 /* AppDelegate.swift */,
+				C534FD771D12B33F00808B63 /* GameScene.swift */,
+				C534FD791D12B33F00808B63 /* GameViewController.swift */,
+				C534FD7B1D12B33F00808B63 /* Main.storyboard */,
+				C534FD801D12B33F00808B63 /* LaunchScreen.storyboard */,
+				C50A04901D1703A000767AF8 /* splash1234.png */,
+				C58C07811D4A06AF001F4E52 /* splash_v1.png */,
+				C534FD831D12B33F00808B63 /* Info.plist */,
+				C56028501D167F4F00C7967C /* Assets.xcassets */,
+				C522B3031D15220000274B89 /* scored.wav */,
+				C50A04841D16C5C500767AF8 /* punch.wav */,
+			);
+			path = "Roll from top";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C534FD6F1D12B33D00808B63 /* Brain Dots - Colors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C534FD861D12B33F00808B63 /* Build configuration list for PBXNativeTarget "Brain Dots - Colors" */;
+			buildPhases = (
+				C534FD6C1D12B33D00808B63 /* Sources */,
+				C534FD6D1D12B33D00808B63 /* Frameworks */,
+				C534FD6E1D12B33D00808B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brain Dots - Colors";
+			productName = "Roll from top";
+			productReference = C534FD701D12B33D00808B63 /* Brain Dots - Colors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C534FD681D12B33D00808B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sanjith Kanagavel";
+				TargetAttributes = {
+					C534FD6F1D12B33D00808B63 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = AAKS6C6U36;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C534FD6B1D12B33D00808B63 /* Build configuration list for PBXProject "Brain Dots - Colors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C534FD671D12B33D00808B63;
+			productRefGroup = C534FD711D12B33D00808B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C534FD6F1D12B33D00808B63 /* Brain Dots - Colors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C534FD6E1D12B33D00808B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50A04911D1703A000767AF8 /* splash1234.png in Resources */,
+				C5D800911D4A1A99006A428C /* Default-568h.png in Resources */,
+				C56028521D167F4F00C7967C /* Assets.xcassets in Resources */,
+				C54BDAE61D17CC4B00DAB11D /* Images.xcassets in Resources */,
+				C522B3041D15220000274B89 /* scored.wav in Resources */,
+				C534FD821D12B33F00808B63 /* LaunchScreen.storyboard in Resources */,
+				C5D8008F1D4A1A1E006A428C /* Default-568h@2x.png in Resources */,
+				C58C07821D4A06AF001F4E52 /* splash_v1.png in Resources */,
+				C50A04851D16C5C500767AF8 /* punch.wav in Resources */,
+				C534FD7D1D12B33F00808B63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C534FD6C1D12B33D00808B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C522B3061D15250B00274B89 /* GameStartingEndScene.swift in Sources */,
+				C534FD781D12B33F00808B63 /* GameScene.swift in Sources */,
+				C534FD7A1D12B33F00808B63 /* GameViewController.swift in Sources */,
+				C534FD741D12B33E00808B63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C534FD7B1D12B33F00808B63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C534FD7C1D12B33F00808B63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C534FD801D12B33F00808B63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C534FD811D12B33F00808B63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C534FD841D12B33F00808B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C534FD851D12B33F00808B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C534FD871D12B33F00808B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Roll from top/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sanjithkanagavel.braindots-colors";
+				PRODUCT_NAME = "Brain Dots - Colors";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C534FD881D12B33F00808B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Roll from top/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sanjithkanagavel.braindots-colors";
+				PRODUCT_NAME = "Brain Dots - Colors";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C534FD6B1D12B33D00808B63 /* Build configuration list for PBXProject "Brain Dots - Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C534FD841D12B33F00808B63 /* Debug */,
+				C534FD851D12B33F00808B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C534FD861D12B33F00808B63 /* Build configuration list for PBXNativeTarget "Brain Dots - Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C534FD871D12B33F00808B63 /* Debug */,
+				C534FD881D12B33F00808B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C534FD681D12B33D00808B63 /* Project object */;
+}
