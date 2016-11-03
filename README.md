@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
 <b>Brain Dots - Colors</b><br>
 <img src="https://github.com/SanjithKanagavel/BrainDotsColors-iOS/blob/master/Brain%20Dots%20-%20Colors/Roll%20from%20top/AppIcon.appiconset/Icon-App-76x76%403x.png" width="150px"/><br><br>
 <i>2D iOS Game Developed using SpriteKit.<br> Available to download<br> https://itunes.apple.com/in/app/brain-dots-colors/id1125722878?mt=8 </i>
